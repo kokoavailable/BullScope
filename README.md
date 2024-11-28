@@ -33,6 +33,52 @@ BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist w
 
 It calculates technical indicators from collected data, tracking and recording them until the targeted stock diverges from the set threshold. Internal logic determines likely points of trend reversal, providing information.
 
+## TA Indicators
+
+### 1. **MACD (Moving Average Convergence Divergence)**
+- **Description**: The difference between short-term and long-term exponential moving averages (EMAs).  
+It incorporates the concept of golden and dead crosses.
+- **Components**:  
+  - MACD Line = 12-day EMA - 26-day EMA  
+  - Signal Line = 9-day EMA of MACD Line  
+
+### 2. **RSI (Relative Strength Index)**
+- **Description**: The ratio of gains to losses over a specific period.  
+It reflects buying and selling sentiment and measures the strength of price movements.
+- **Formula**:  
+  RSI = 100 - (100 / (1 + RS))
+
+### 3. **Stochastic Oscillator**
+- **Description**: Tracks the current price relative to a given period’s high-low range.
+- **Formula**:  
+  %K = ((Close - Low) / (High - Low)) * 100
+- **Components**:  
+  %K (Fast): Measures the current price's position within the period's high-low range.
+  %D (Slow): 3-day SMA of %K.
+  Used to detect overbought or oversold conditions.
+
+### 4. **CCI (Commodity Channel Index)**
+- **Description**: The deviation of the typical price from its average,  
+divided by the product of its standard deviation and a constant.  
+Similar to Bollinger Bands, it utilizes deviations for analysis.
+"""
+- **Formula**:  
+  CCI = (Typical Price - SMA(Typical Price)) / (0.015 * Standard Deviation)
+
+### 5. **Bollinger Bands**
+- **Description**: Values deviating by 2 standard deviations (σ) from the 20 SMA.  
+Represents the upper and lower Bollinger Bands.
+- **Components**:  
+  - Middle Band = 20-day SMA  
+  - Upper/Lower Bands = Middle Band ± 2 × Std Dev
+ 
+### 6. **SMA10, SMA 50**
+- **Description**: Calculates short-term and medium-to-long-term simple moving averages (SMAs).  
+Used to detect short-term trend reversals.
+- **Components**:  
+  - 10-day SMA = (Sum of Closing Prices over 10 Days) / 10
+  - 50-day SMA = (Sum of Closing Prices over 50 Days) / 50
+
 <!-- ## Installation
 
 You can find pre-built releases for Windows, Linux and macOS [here](https://github.com/lapce/lapce/releases), or [installing with a package manager](docs/installing-with-package-manager.md).
