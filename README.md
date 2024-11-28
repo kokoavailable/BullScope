@@ -23,8 +23,6 @@
 
 BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various auxiliary indicators, recording changes in trends. Using internal logic it helps investment decision.
 
-![image](https://github.com/kokoavailable/BullScope/assets/165033012/5029f39d-f940-4c1a-ad6f-2cf577b34cb5)
-
 
 ## Features
 
