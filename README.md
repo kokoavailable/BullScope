@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="" target="_blank">
-  <img src="https://github.com/user-attachments/assets/5e554173-a7c1-43bb-a039-2e2468d5031c" width=200 height=200/><br>
+  <img src="https://github.com/user-attachments/assets/5e554173-a7c1-43bb-a039-2e2468d5031c" width=400 height=400/><br>
   BullScope
   </a>
 
@@ -19,6 +19,7 @@
   </a>-->
 </div>
 <br/>
+<img width="1463" alt="image" src="https://github.com/user-attachments/assets/0c5e97b7-c768-4a0e-902d-20519e1d6e37">
 
 
 BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various auxiliary indicators, recording changes in trends. Using internal logic it helps investment decision.
