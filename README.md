@@ -3,7 +3,6 @@
   <img src="https://github.com/user-attachments/assets/5fe5f551-8c10-42b5-b5de-6f56947fe0c2" width=350 height=350/><br>
   BullScope
   </a>
-![image](https://github.com/user-attachments/assets/5fe5f551-8c10-42b5-b5de-6f56947fe0c2)
 
 </h1>
 <h4 align="center">Powerful Invest Supporter</h4>
