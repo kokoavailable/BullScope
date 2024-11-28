@@ -22,7 +22,7 @@
 <img width="1463" alt="image" src="https://github.com/user-attachments/assets/0c5e97b7-c768-4a0e-902d-20519e1d6e37">
 
 
-BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various auxiliary indicators, recording changes in trends. Using internal logic it helps investment decision.
+BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various technical indicators, recording changes in trends. Using internal logic it helps investment decision. 
 
 
 ## Features
@@ -31,7 +31,7 @@ BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist w
 * Tracks various technical indicators, recording changes in trends.
 * Uses internal logic to help make internal decisions.
 
-It calculates technical indicators from collected data, tracking and recording them until the targeted stock diverges from the set threshold. Internal logic determines likely points of trend reversal, providing information.
+It calculates technical indicators from collected data, tracking and recording them until the targeted stock diverges from the set threshold. Internal logic determines likely points of trend reversal, providing information. Additionally, through fundamental analysis, it offers insights into the intrinsic value of the stock, supporting steady investment decisions by grounding them in solid fundamentals, as fundamental analysis serves as the cornerstone of sound investing.
 
 ## TA Indicators
 
@@ -78,6 +78,8 @@ Used to detect short-term trend reversals.
 - **Components**:  
   - 10-day SMA = (Sum of Closing Prices over 10 Days) / 10
   - 50-day SMA = (Sum of Closing Prices over 50 Days) / 50
+ 
+## FA
 
 <!-- ## Installation
 
