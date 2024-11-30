@@ -79,7 +79,132 @@ Used to detect short-term trend reversals.
   - 10-day SMA = (Sum of Closing Prices over 10 Days) / 10
   - 50-day SMA = (Sum of Closing Prices over 50 Days) / 50
  
-## FA
+## FA Matrics
+The metrics provide meaningful analytical results depending on time and context. They are used to evaluate intrinsic and fundamental value.
+
+
+
+### 1. PBR (Price-to-Book Ratio)
+
+- **Description:** The market price per share reflects market sentiment and expectations, while the book value per share represents the actual asset value. However, in industries where intangible assets like technology, patents, or brand value play a significant role, PBR might be lower. A low PBR does not always indicate undervaluation—it could signal poor asset quality (e.g., excessive debt) or weak profitability. Therefore, it is crucial to analyze PBR alongside ROE to determine whether the assets are efficiently generating returns.
+
+- **Formula:**
+
+```
+PBR = Market Price per Share / Book Value per Share
+```
+
+- **Components:**
+  - **Market Price per Share:** Current trading price of the stock. Reflects market sentiment and future expectations.
+  - **Book Value per Share:** Total assets minus total liabilities divided by the number of shares outstanding. Represents actual asset value.
+
+
+### 2. PER (Price-to-Earnings Ratio)
+
+- **Description:** The PER represents the ratio of a company's share price to its earnings per share, reflecting investor expectations about the company's future financial performance. It is used to evaluate the appropriateness of a stock's price relative to its earnings. High-growth industries like IT and biotech often exhibit higher ratios.
+
+- **Formula:**
+
+```
+PER = Market Price per Share / Earnings per Share (EPS)
+```
+
+- **Components:**
+  - **Market Price per Share:** Current trading price. Reflects market sentiment and future expectations.
+  - **Earnings per Share (EPS):** Net earnings divided by the number of shares outstanding.
+
+
+### 3. ROE (Return on Equity)
+
+- **Description:** This measures how effectively a company uses shareholders' equity to generate profits. A consistently high ROE indicates stable profitability and efficient management. However, high ROE can sometimes indicate excessive leverage, so it should be analyzed along with the debt-to-equity ratio.
+
+- **Formula:**
+
+```
+ROE = (Net Income / Shareholders’ Equity) × 100%
+```
+
+- **Components:**
+  - **Net Income:** Profit after taxes and expenses. 
+  - **Shareholders' Equity:** Total assets minus total liabilities.
+
+
+### 4. Debt-to-Equity Ratio
+
+**Description:** This ratio evaluates a company's financial leverage by comparing its total liabilities to shareholders' equity. It is crucial for assessing financial stability and risk. A higher ratio may signal increased risk due to heavy reliance on debt.
+
+- **Formula:**
+
+```
+Debt-to-Equity Ratio = Total Liabilities / Shareholders’ Equity
+```
+
+- **Components:**
+  - **Total Liabilities:** Total financial obligations. Utilization of external capital.
+  - **Shareholders' Equity:** Total assets minus total liabilities. Internal capital.
+
+
+### 5. EPS (Earnings Per Share)
+
+- **Description:** EPS indicates the profitability of a company on a per-share basis. It helps compare the earning power of companies. It indicates how much profit a company can allocate to each shareholder, maximizing shareholder value. It also reflects the potential for the company to expand its market share. In the technology sector, where PER tends to be higher, the growth in EPS plays a critical role in evaluating the company's actual growth potential.
+
+- **Formula:**
+
+```
+EPS = (Net Income − Preferred Dividends) / Average Outstanding Shares
+```
+
+- **Components:**
+  - **Net Income:** Profit after taxes and expenses.
+  - **Preferred Dividends:** Dividends owed to preferred shareholders.
+  - **Average Outstanding Shares:** Weighted average of shares during the reporting period.
+
+
+### 6. DCF (Discounted Cash Flow)
+
+- **Description:** The DCF method estimates an investment's intrinsic value based on its expected future cash flows. It helps identify undervalued or overvalued assets by focusing on a company's inherent value rather than short-term market sentiment. It is particularly useful in stable industries like infrastructure and utilities, where estimates are more reliable. It is equally important in fields like IT and biotech, as accurately valuing future growth potential in present terms is crucial, though projections can be challenging and require careful assumptions.
+
+
+
+- **Formula:**
+
+```
+DCF = Σ (Cash Flowₜ / (1 + r)ᵗ)
+```
+
+- **Components:**
+  - **Cash Flowₜ:** Expected cash flow at time t. The assets that a company will generate in the future.
+  - **n:** Total number of periods.
+  - **r:** Discount rate reflecting investment risk and cost of capital.
+
+
+### 7. Revenue
+
+- **Description:** Revenue represents the total income generated from a company's underlying assets before expenses, serving as a key indicator of its competitiveness and overall scale in the market (measured in absolute terms). It is especially important in high-revenue industries such as retail and consumer goods, as well as for large-scale companies. However, in low-revenue, high-profit industries like IT and biotech, or for smaller companies, factors such as cost structure and profit margins often carry greater significance.
+
+- **Formula:**
+
+```
+Revenue = Total Income from Sales or Operations
+```
+
+- **Components:**
+  - **Revenue:** Income from selling goods or services.
+
+
+### 8. PEG (Price/Earnings to Growth Ratio)
+
+- **Description:** By dividing the P/E ratio by the company’s earnings growth rate, the PEG ratio incorporates growth into the valuation metric, allowing for an assessment of the stock price relative to its growth. In other words, it evaluates whether the price is reasonable compared to the expected future growth rate. This ratio is particularly important in growth-oriented industries and provides a quantitative method to value high-growth companies, which are often difficult to assess using the P/E ratio alone.
+
+- **Formula:**
+
+```
+PEG = P/E Ratio / Earnings Growth Rate
+```
+
+- **Components:**
+  - **P/E Ratio:** Price-to-Earnings ratio.
+  - **Earnings Growth Rate:** Projected rate of earnings growth, usually over five years.
 
 <!-- ## Installation
 
