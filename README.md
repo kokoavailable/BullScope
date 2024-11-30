@@ -189,7 +189,7 @@ Revenue = Total Income from Sales or Operations
 ```
 
 - **Components:**
-  - **Revenue:** Income from selling goods or services.
+  - **Revenue:** Income from selling goods or services.
 
 
 ### 8. PEG (Price/Earnings to Growth Ratio)
