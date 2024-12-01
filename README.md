@@ -116,7 +116,7 @@ Used to detect short-term trend reversals.
   - 50-day SMA = (Sum of Closing Prices over 50 Days) / 50
 
  <a id="custom-fa-matrics"></a>
-## FA Matrics
+## [FA Matrics](#table-of-contents)
 The metrics provide meaningful analytical results depending on time and context. They are used to evaluate intrinsic and fundamental value.
 
 
@@ -244,7 +244,7 @@ PEG = P/E Ratio / Earnings Growth Rate
   - **Earnings Growth Rate:** Projected rate of earnings growth, usually over five years.
 
  <a id="custom-market-indicators"></a>
-## Market Indicators
+## [Market Indicators](#table-of-contents)
 It covers global economic trends (BDI, PMI, CCI, MSCI EM, China PMI), market sentiment (VIX, Fear & Greed Index, Buffett Indicator), monetary policy (FedWatch, Dot Plot, Yield Curve Inversion, M2 Growth Rate, DXY), labor market indicators , and inflation metrics (CPI, Core CPI, PPI, Core PCE).
 
 ### 1. **BDI (Baltic Dry Index)**
