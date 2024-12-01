@@ -42,7 +42,7 @@ It calculates technical indicators from collected data, tracking and recording t
 5. [Bollinger Bands](#5-bollinger-bands)
 6. [SMA10, SMA50](#6-sma10-sma-50)
 
-### [FA Metrics](#fa-metrics)
+### [FA Metrics](#custom-fa-metrics)
 1. [PBR (Price-to-Book Ratio)](#1-pbr-price-to-book-ratio)
 2. [PER (Price-to-Earnings Ratio)](#2-per-price-to-earnings-ratio)
 3. [ROE (Return on Equity)](#3-roe-return-on-equity)
@@ -52,7 +52,7 @@ It calculates technical indicators from collected data, tracking and recording t
 7. [Revenue](#7-revenue)
 8. [PEG (Price/Earnings to Growth Ratio)](#8-peg-priceearnings-to-growth-ratio)
 
-### [Market Indicators](#market-indicators)
+### [Market Indicators](#custom-market-indicators)
 1. [BDI (Baltic Dry Index)](#1-bdi-baltic-dry-index)
 2. [PMI (Purchasing Managers' Index)](#2-pmi-purchasing-managers-index)
 3. [Consumer Confidence Index (CCI)](#3-consumer-confidence-index-cci)
@@ -69,8 +69,8 @@ It calculates technical indicators from collected data, tracking and recording t
 14. [MSCI Emerging Markets Index (MSCI EM)](#14-msci-emerging-markets-index-msci-em)
 15. [China PMI (Purchasing Managers' Index)](#15-china-pmi-purchasing-managers-index)
 
-## [TA Indicators](#table-of-contents)
 <a id="custom-ta-indicators"></a>
+## [TA Indicators](#table-of-contents)
 ### 1. **MACD (Moving Average Convergence Divergence)**
 - **Description**: The difference between short-term and long-term exponential moving averages (EMAs).  
 It incorporates the concept of golden and dead crosses.
@@ -114,7 +114,8 @@ Used to detect short-term trend reversals.
 - **Components**:  
   - 10-day SMA = (Sum of Closing Prices over 10 Days) / 10
   - 50-day SMA = (Sum of Closing Prices over 50 Days) / 50
- 
+
+ <a id="custom-fa-matrics"></a>
 ## FA Matrics
 The metrics provide meaningful analytical results depending on time and context. They are used to evaluate intrinsic and fundamental value.
 
@@ -242,6 +243,7 @@ PEG = P/E Ratio / Earnings Growth Rate
   - **P/E Ratio:** Price-to-Earnings ratio.
   - **Earnings Growth Rate:** Projected rate of earnings growth, usually over five years.
 
+ <a id="custom-market-indicators"></a>
 ## Market Indicators
 It covers global economic trends (BDI, PMI, CCI, MSCI EM, China PMI), market sentiment (VIX, Fear & Greed Index, Buffett Indicator), monetary policy (FedWatch, Dot Plot, Yield Curve Inversion, M2 Growth Rate, DXY), labor market indicators , and inflation metrics (CPI, Core CPI, PPI, Core PCE).
 
