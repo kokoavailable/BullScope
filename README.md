@@ -25,21 +25,21 @@
 BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various technical indicators, recording changes in trends. Using internal logic it helps investment decision. 
 
 ## Table of Contents
-- [BDI (Baltic Dry Index)](#bdi-baltic-dry-index)
-- [PMI (Purchasing Managers' Index)](#pmi-purchasing-managers-index)
-- [Consumer Confidence Index (CCI)](#consumer-confidence-index-cci)
-- [FedWatch Expected Rate Spread](#fedwatch-expected-rate-spread)
-- [Dot Plot (Federal Reserve)](#dot-plot-federal-reserve)
-- [Buffett Indicator](#buffett-indicator)
-- [VIX (Volatility Index)](#vix-volatility-index)
-- [Fear & Greed Index](#fear--greed-index)
-- [M2 Growth Rate](#m2-growth-rate)
-- [Yield Curve Inversion](#yield-curve-inversion)
-- [Dollar Index (DXY)](#dollar-index-dxy)
-- [Labor Market Indicators](#labor-market-indicators)
-- [Inflation Metrics](#inflation-metrics)
-- [MSCI Emerging Markets Index](#msci-emerging-markets-index)
-- [China PMI](#china-pmi)
+- [1. BDI (Baltic Dry Index)](#1-bdi-baltic-dry-index)
+- [2. PMI (Purchasing Managers' Index)](#2-pmi-purchasing-managers-index)
+- [3. Consumer Confidence Index (CCI)](#3-consumer-confidence-index-cci)
+- [4. FedWatch Expected Rate Spread](#4-fedwatch-expected-rate-spread)
+- [5. Dot Plot (Federal Reserve)](#5-dot-plot-federal-reserve)
+- [6. Buffett Indicator](#6-buffett-indicator)
+- [7. VIX (Volatility Index)](#7-vix-volatility-index)
+- [8. Fear & Greed Index](#8-fear--greed-index)
+- [9. M2 Growth Rate](#9-m2-growth-rate)
+- [10. Yield Curve Inversion](#10-yield-curve-inversion)
+- [11. Dollar Index (DXY)](#11-dollar-index-dxy)
+- [12. Labor Market Indicators](#12-labor-market-indicators)
+- [13. Inflation Indicators](#13-inflation-indicators)
+- [14. MSCI Emerging Markets Index](#14-msci-emerging-markets-index)
+- [15. China PMI](#15-china-pmi)
 - 
 ## Features
 
