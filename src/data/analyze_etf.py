@@ -7,35 +7,8 @@ sys.path.append(PROJECT_ROOT)
 import yfinance as yf
 import pandas as pd
 from common.technical_analysis import calculate_macd, calculate_cci, calculate_stochastic, calculate_rsi, calculate_bollinger_bands, calculate_moving_averages
-
+from common.common import etf_tickers
 # ETF 티커 리스트
-etf_tickers = [
-    "TQQQ", "SOXL", "QLD", "FNGU", "TMF", 
-    "SSO", "SPXL", "NVDL", "UPRO", "TECL", 
-    "FAS", "TNA", "TSLL", "BITX", "YINN", 
-    "BULZ", "USD", "BITU", "DPST", "UYG", 
-    "LABU", "UDOW", "ROM", "NVDU", "AGQ",
-    "BOIL", "UWM", "NUGT", "ETHU", "UCO", 
-    "URTY", "CONL", "DDM", "FNGO", "GUSH", 
-    "NAIL", "UVXY", "ERX", "GDXU", "XDEC", 
-    "CWEB", "UGL", "JNUG", "CHAU", "DFEN", 
-    "UVIX", "SPYU", "MVV", "CURE", "FBL",
-    "WEBL", "XJUN", "SPUU", "GGLL", "TARK", 
-    "AMZU", "ETHT", "DGP", "XSEP", "MIDU", 
-    "BRZU", "MSFU", "DIG", "DRN", "XBOC", 
-    "INDL", "AAPU", "RXL", "URE", "XBJA", 
-    "BIB", "KORU", "EDC", "FNGG", "UTSL",
-    "TYD", "XDSQ", "OILU", "RETL", "UMDD", 
-    "HIBL", "DUSL", "UYM", "SAA", "EUO", 
-    "SMHB", "WANT", "MSOX", "UBOT", "UXI", 
-    "TPOR", "MVRL", "YCS", "QTJA", "UST", 
-    "UPW", "UJB", "SHNY", "MEXX", "MLPR",
-    "UGE", "QTOC", "EFO", "OOTO", "CLDL", 
-    "LTL", "IWML", "XDAP", "EZJ", "XDOC", 
-    "URAX", "CARU", "EVAV", "UPV", "UCYB", 
-    "SKYU", "UBR"
-
-]
 
 def fetch_and_calculate(ticker_symbol):
     """
@@ -72,7 +45,7 @@ def fetch_and_calculate(ticker_symbol):
         print(historical_data.tail())
 
         # RSI 35 이하 필터링
-        if historical_data['RSI'].iloc[-1] <= 35:
+        if historical_data['RSI'].iloc[-1] >= 70:
             print(f"RSI가 35 이하인 종목: {ticker_symbol}")
             return historical_data.tail(1)  # 최신 값 반환
         else:

@@ -34,11 +34,42 @@ from datetime import datetime
 
 # 셀레니움 드라이버
 
-def create_driver():
-    service = Service(executable_path='/Users/koko/Downloads/chromedriver-mac-arm64/chromedriver')
-    return webdriver.Chrome(service=service)
 
-driver = create_driver()
+etf_tickers = [
+    "TQQQ", "SOXL", "QLD", "FNGU", "TMF", 
+    "SSO", "SPXL", "NVDL", "UPRO", "TECL", 
+    "FAS", "TNA", "TSLL", "BITX", "YINN", 
+    "BULZ", "USD", "BITU", "DPST", "UYG", 
+    "LABU", "UDOW", "ROM", "NVDU", "AGQ",
+    "BOIL", "UWM", "NUGT", "ETHU", "UCO", 
+    "URTY", "CONL", "DDM", "FNGO", "GUSH", 
+    "NAIL", "UVXY", "ERX", "GDXU", "XDEC", 
+    "CWEB", "UGL", "JNUG", "CHAU", "DFEN", 
+    "UVIX", "SPYU", "MVV", "CURE", "FBL",
+    "WEBL", "XJUN", "SPUU", "GGLL", "TARK", 
+    "AMZU", "ETHT", "DGP", "XSEP", "MIDU", 
+    "BRZU", "MSFU", "DIG", "DRN", "XBOC", 
+    "INDL", "AAPU", "RXL", "URE", "XBJA", 
+    "BIB", "KORU", "EDC", "FNGG", "UTSL",
+    "TYD", "XDSQ", "OILU", "RETL", "UMDD", 
+    "HIBL", "DUSL", "UYM", "SAA", "EUO", 
+    "SMHB", "WANT", "MSOX", "UBOT", "UXI", 
+    "TPOR", "MVRL", "YCS", "QTJA", "UST", 
+    "UPW", "UJB", "SHNY", "MEXX", "MLPR",
+    "UGE", "QTOC", "EFO", "OOTO", "CLDL", 
+    "LTL", "IWML", "XDAP", "EZJ", "XDOC", 
+    "URAX", "CARU", "EVAV", "UPV", "UCYB", 
+    "SKYU", "UBR"
+
+]
+
+fred_api = rdb_user = config.get('DEV', 'FRED_API')
+
+# def create_driver():
+#     service = Service(executable_path='/Users/koko/Downloads/chromedriver-mac-arm64/chromedriver')
+#     return webdriver.Chrome(service=service)
+
+# driver = create_driver()
 
 def setup_logging():
     logger = logging.getLogger('main')
@@ -73,21 +104,21 @@ def setup_logging():
 logger = setup_logging()
 
 
-def get_engine():
+# def get_engine():
 
-    rdb_user = config.get('DEV', 'POST_USER')
-    rdb_password = config.get('DEV', 'POST_PASSWORD')
-    rdb_host = config.get('DEV', 'POST_HOST')
-    rdb_port = config.get('DEV', 'POST_PORT')
-    rdb_name = config.get('DEV', 'POST_NAME')
+#     rdb_user = config.get('DEV', 'POST_USER')
+#     rdb_password = config.get('DEV', 'POST_PASSWORD')
+#     rdb_host = config.get('DEV', 'POST_HOST')
+#     rdb_port = config.get('DEV', 'POST_PORT')
+#     rdb_name = config.get('DEV', 'POST_NAME')
 
-    engine = create_engine(f'postgresql+psycopg2://{rdb_user}:{rdb_password}@{rdb_host}:{rdb_port}/{rdb_name}')
-    return engine
+#     engine = create_engine(f'postgresql+psycopg2://{rdb_user}:{rdb_password}@{rdb_host}:{rdb_port}/{rdb_name}')
+#     return engine
 
-def get_session(engine):
-    Session = sessionmaker(bind=engine)
-    session = Session()
-    return session
+# def get_session(engine):
+#     Session = sessionmaker(bind=engine)
+#     session = Session()
+#     return session
 
-engine = get_engine()
-session = get_session(engine)
+# engine = get_engine()
+# session = get_session(engine)

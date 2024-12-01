@@ -66,6 +66,9 @@ def calculate_bollinger_bands(data, window=20, num_std_dev=2):
     data['Std Dev'] = data['Close'].rolling(window=window).std()
     data['Upper Band'] = data['Middle Band'] + (num_std_dev * data['Std Dev'])
     data['Lower Band'] = data['Middle Band'] - (num_std_dev * data['Std Dev'])
+    
+    data.drop(columns=['Std Dev'], inplace=True)
+    
     return data
 
 def calculate_moving_averages(data, short_window=10, long_window=50):
@@ -73,6 +76,6 @@ def calculate_moving_averages(data, short_window=10, long_window=50):
     단기, 중장기 sma 계산.
     단기 추세 전환 포착
     """
-    data['SMA_Short'] = data['Close'].rolling(window=short_window).mean()
-    data['SMA_Long'] = data['Close'].rolling(window=long_window).mean()
+    data['SMA20'] = data['Close'].rolling(window=short_window).mean()
+    data['SMA50'] = data['Close'].rolling(window=long_window).mean()
     return data
