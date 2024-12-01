@@ -206,6 +206,323 @@ PEG = P/E Ratio / Earnings Growth Rate
   - **P/E Ratio:** Price-to-Earnings ratio.
   - **Earnings Growth Rate:** Projected rate of earnings growth, usually over five years.
 
+## Market Indicators
+It covers global economic trends (BDI, PMI, CCI, MSCI EM, China PMI), market sentiment (VIX, Fear & Greed Index, Buffett Indicator), monetary policy (FedWatch, Dot Plot, Yield Curve Inversion, M2 Growth Rate, DXY), labor market indicators , and inflation metrics (CPI, Core CPI, PPI, Core PCE).
+
+### 1. **BDI (Baltic Dry Index)**
+
+- **Description:**  
+  The BDI measures the cost of shipping raw materials such as iron ore, coal, and grain across the globe. It serves as a leading indicator of global economic activity and demand for raw materials.
+
+- **Formula:**  
+  The Baltic Exchange calculates the index using average shipping rates across major dry bulk routes. While the exact formula remains undisclosed, it is derived as a weighted average of the following three components.
+
+- **Components:**  
+  - **Capesize:** Rates for large vessels.  
+  - **Panamax:** Rates for medium-sized vessels.  
+  - **Supramax:** Rates for smaller vessels.
+
+- **Usage:**  
+  - **BDI Rising:** Increased demand for raw materials → Potential global economic recovery.  
+  - **BDI Falling:** Reduced demand for raw materials → Economic slowdown signal.
+
+
+### 2. **PMI (Purchasing Managers' Index)**
+
+- **Description:**  
+  The PMI measures the health of the manufacturing and service sectors, making it a key indicator of overall economic activity. It reflects business sentiment based on new orders, production, employment, supplier delivery times, and inventory levels.
+
+- **Formula:**  
+  ```
+  PMI=(Proportion of respondents reporting improvement×1)+(Proportion of respondents reporting no change×0.5)+(Proportion of respondents reporting deterioration×0)
+  ```
+
+- **Components:**  
+  - **New Orders:** Demand for goods or services.  
+  - **Production:** Current output levels.  
+  - **Employment:** Hiring trends.  
+  - **Supplier Deliveries:** Speed of supply chains.  
+  - **Inventory Levels:** Stockpile status.
+
+- **Usage:**  
+  - **PMI > 50:** Economic expansion → Increased manufacturing and service activity.  
+  - **PMI < 50:** Economic contraction → Reduced activity and potential slowdown.
+
+
+### 3. **Consumer Confidence Index (CCI)**
+
+- **Description:**  
+  The CCI evaluates consumer sentiment regarding the overall economy, reflecting the public’s willingness to spend. It serves as a leading indicator for retail sales and broader economic activity.
+
+- **Formula:**  
+  Based on surveys of households regarding current and future economic conditions, scaled to a baseline of 100.
+
+- **Components:**  
+  - **Current Conditions Index:** Measures perception of present economic conditions.  
+  - **Expectations Index:** Reflects expectations for income, business conditions, and employment over the next 6 months.
+
+- **Usage:**  
+  - **Rising CCI:** Higher consumer confidence → Increased spending → Economic growth.  
+  - **Falling CCI:** Lower confidence → Reduced spending → Potential economic slowdown.
+
+
+### 4. **FedWatch Expected Rate Spread**
+
+- **Description:**  
+  The FedWatch tool reflects market expectations for Federal Reserve interest rate decisions. It uses CME Group's futures data to estimate the probability of rate hikes or cuts.
+
+- **Formula:**  
+  The probabilities are derived from Fed Funds Futures data.
+
+- **Components:**  
+  - **Current Rate Range:** The Fed's target interest rate range.  
+  - **Expected Rate Change Probability:** Market-based expectations for rate changes.
+
+- **Usage:**  
+  - **High Probability:** Prepare for rate movement scenarios.  
+  - **Rate Hike Expected:** Bond weakness, pressure on stock markets.  
+  - **Rate Cut Expected:** Increased liquidity, positive for stock markets.
+
+
+### 5. **Dot Plot (Federal Reserve)**
+
+- **Description:**
+  The Dot Plot, released quarterly after FOMC meetings, shows Federal Reserve members’ projections for interest rates. It provides insights into the pace of rate hikes or cuts and the Fed’s policy direction.
+- **Components:**
+  - **Projections:** Each dot represents a member’s expected federal funds rate for year-end and the long-term neutral rate.
+  - Clustering of Dots:
+    - Higher clusters suggest likely rate hikes.
+    - Lower clusters suggest likely rate cuts.
+  - **Release Frequency:** Published quarterly in March, June, September, and December.
+- **Usage:**
+  - Helps market participants anticipate future monetary policy decisions.
+  - Offers insight into the Fed’s economic outlook but is not a binding commitment.
+
+
+### 6. **Buffett Indicator**
+
+- **Description:**  
+  The Buffett Indicator measures the ratio of a country's total stock market capitalization to its GDP. It is used to assess whether the stock market is overvalued or undervalued relative to the economy.
+
+- **Formula:**  
+  ```
+  Buffett Indicator = Total Stock Market Cap / GDP
+  ```
+
+- **Usage:**  
+  - **Above 100%:** Market may be overvalued.  
+  - **Below 100%:** Market may be undervalued.
+
+
+### 7. **VIX (Volatility Index)**
+
+- **Description:**  
+  The VIX measures the implied volatility of S&P 500 options, reflecting investor fear and market uncertainty. It is often called the "Fear Index."
+
+- **Formula:**  
+  The VIX is derived from option prices on the S&P 500 index.
+
+- **Usage:**  
+  - **VIX Rising:** Increased market fear → Risk assets weaken.  
+  - **VIX Falling:** Market stability → Risk assets strengthen.
+
+
+### 8. **Fear & Greed Index**
+
+- **Description:**
+  This index, published by CNN, gauges market sentiment by balancing fear and greed among investors. It combines seven factors such as stock price momentum, market volatility (VIX), safe-haven demand, and junk bond demand to provide a score between 0 (Extreme Fear) and 100 (Extreme Greed).
+
+- **Components:**
+
+  - Stock Price Momentum:
+
+    Measures whether the S&P 500 is above or below its 125-day moving average.
+
+    - **Above:** Greed
+    - **Below:** Fear
+
+  - Stock Price Strength:
+
+    Tracks the ratio of stocks hitting 52-week highs to 52-week lows.
+
+    - **More highs:** Greed
+    - **More lows:** Fear
+
+  - Market Volatility (VIX):
+
+    Uses the VIX index to measure market uncertainty.
+
+    - **High VIX:** Fear
+    - **Low VIX:** Greed
+
+  - Safe-Haven Demand (Treasuries vs. Stocks):
+
+    Compares returns on Treasuries to stocks.
+
+    - **Preference for Treasuries:** Fear
+    - **Preference for Stocks:** Greed
+
+  - Junk Bond Demand:
+
+    Measures the yield spread between investment-grade and junk bonds.
+
+    - **Narrow Spread:** Greed
+    - **Wide Spread:** Fear
+
+- **Score Range:**
+
+  - 0-24: Extreme Fear
+  - 25-49: Fear
+  - 50: Neutral
+  - 51-74: Greed
+  - 75-100: Extreme Greed
+
+- **Usage:**
+
+  - **High Fear:** Increased selling → Potential buying opportunities.
+  - **High Greed:** Overheating markets → Defensive strategies recommended.
+
+
+### 9. **M2 Growth Rate**
+
+- **Description:**  
+  The M2 growth rate measures the annual or monthly change in broad money supply, indicating the flow of liquidity in the economy.
+
+- **Formula:**  
+  ```
+  M2 Growth Rate = (Current M2 - Previous M2) / Previous M2 × 100%
+  ```
+
+- **Usage:**  
+  - **Growth Rate Rising:** Increased liquidity → Potential asset market strength.  
+  - **Growth Rate Falling:** Reduced liquidity → Risk asset weakness.
+
+
+### 10. **Yield Curve Inversion**
+
+- **Description:**  
+  Yield curve inversion occurs when long-term bond yields fall below short-term bond yields. It is often seen as a precursor to economic recessions.
+
+- **Formula:**  
+  ```
+  Yield Curve Spread = 10-Year Treasury Yield - 2-Year Treasury Yield
+  ```
+
+- **Usage:**  
+  - **Negative Spread:** Increased likelihood of a recession.  
+  - **Positive Spread:** Normal economic growth signal.
+
+
+### 11. **Dollar Index (DXY)**
+
+- **Description:**  
+  The Dollar Index measures the value of the US dollar relative to a basket of six major foreign currencies. It is a key indicator of global capital flows and forex market trends.
+
+- **Formula:**  
+  The DXY is calculated as a weighted geometric mean of the dollar’s value relative to the selected currencies.
+
+- **Usage:**  
+  - **Strong Dollar:** Capital outflows from emerging markets → Risk asset weakness.  
+  - **Weak Dollar:** Capital inflows into emerging markets → Risk asset strength.
+
+
+### **12. Labor Market Indicators**
+
+- **Description:**
+  Labor market data provide insights into employment trends, wage growth, and overall economic health, serving as key metrics for consumer spending and economic stability.
+
+- **Key Indicators:**
+
+  - Unemployment Rate:
+
+     Measures the proportion of unemployed individuals within the labor force.
+
+    - **Low Unemployment:** Indicates labor market strength and economic health.
+    - **High Unemployment:** Suggests potential economic slowdown.
+
+  - Initial Jobless Claims:
+
+     Tracks weekly applications for unemployment benefits, reflecting short-term labor market trends.
+
+    - **Increase:** Indicates weakening labor market.
+    - **Decrease:** Suggests labor market resilience.
+
+  - Continuing Jobless Claims:
+
+     Measures ongoing unemployment claims, showing the persistence of unemployment.
+
+    - **Increase:** Delayed recovery in labor market.
+    - **Decrease:** Indicates improving employment conditions.
+
+  - Average Hourly Earnings:
+
+     Represents changes in hourly wages, providing insights into wage growth and consumer spending potential.
+
+    - **Increase:** Suggests rising consumer purchasing power but could add inflationary pressure.
+    - **Decrease:** Indicates weaker labor market and lower spending capacity.
+
+
+
+### **13. Inflation Indicators**
+
+- **Description:**
+  Inflation metrics assess the rate at which prices for goods and services are rising, impacting purchasing power, central bank policies, and financial markets.
+
+- **Key Indicators:**
+
+  - CPI (Consumer Price Index):
+
+     Tracks changes in the average price of consumer goods and services.
+
+    - **Rising CPI:** Signals increasing inflation → Likely monetary tightening.
+    - **Falling CPI:** Indicates deflation risks → Possible monetary easing.
+
+  - PPI (Producer Price Index):
+
+     Measures changes in production costs, serving as a leading indicator for consumer inflation.
+
+    - **Rising PPI:** Suggests potential consumer price increases.
+    - **Falling PPI:** Indicates reduced cost pressures on businesses.
+
+  - Wage Growth:
+
+     Tracks increases in wages, reflecting labor market strength and potential inflationary effects.
+
+    - **High Wage Growth:** Boosts consumer spending but may fuel inflation.
+    - **Low Wage Growth:** Limits spending and economic growth potential.
+
+
+### **14. MSCI Emerging Markets Index (MSCI EM)**
+
+- **Description:**
+  The MSCI Emerging Markets Index evaluates the performance of equity markets in emerging economies, reflecting global capital flows and investor sentiment.
+- **Usage:**
+  - Rising MSCI EM:
+    - Indicates strength in emerging market economies and suggests capital inflows.
+  - Falling MSCI EM:
+    - Suggests capital outflows and potential economic slowdown in emerging markets.
+    - A strong US dollar (DXY increase) can negatively impact emerging market assets by causing capital flight.
+
+
+
+### **15. China PMI (Purchasing Managers' Index)**
+
+- **Description:**
+  The China PMI assesses the health of China's manufacturing and service sectors, playing a critical role in understanding domestic market trends and global supply chain dynamics.
+
+- **Usage:**
+
+  - PMI > 50:
+    - Indicates expansion in manufacturing and services, reflecting economic growth.
+  - PMI < 50:
+    - Signals contraction and potential economic slowdown.
+  - Market Impact:
+    - Strongly influences commodity prices (e.g., steel, copper, coal).
+    - Early indicator of global supply chain issues and impacts emerging market sentiment and global economic growth.
+
+-
+
+
 <!-- ## Installation
 
 You can find pre-built releases for Windows, Linux and macOS [here](https://github.com/lapce/lapce/releases), or [installing with a package manager](docs/installing-with-package-manager.md).
