@@ -52,7 +52,7 @@ It calculates technical indicators from collected data, tracking and recording t
 7. [Revenue](#7-revenue)
 8. [PEG (Price/Earnings to Growth Ratio)](#8-peg-priceearnings-to-growth-ratio)
 
-### [Market Indicators Overview](#market-indicators-overview)
+### [Market Indicators](#market-indicators)
 1. [BDI (Baltic Dry Index)](#1-bdi-baltic-dry-index)
 2. [PMI (Purchasing Managers' Index)](#2-pmi-purchasing-managers-index)
 3. [Consumer Confidence Index (CCI)](#3-consumer-confidence-index-cci)
