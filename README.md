@@ -115,7 +115,7 @@ Used to detect short-term trend reversals.
   - 10-day SMA = (Sum of Closing Prices over 10 Days) / 10
   - 50-day SMA = (Sum of Closing Prices over 50 Days) / 50
 
- <a id="custom-fa-matrics"></a>
+ <a id="custom-fa-metrics"></a>
 ## [FA Matrics](#table-of-contents)
 The metrics provide meaningful analytical results depending on time and context. They are used to evaluate intrinsic and fundamental value.
 
