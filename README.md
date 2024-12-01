@@ -34,7 +34,7 @@ It calculates technical indicators from collected data, tracking and recording t
 
 ## Table of Contents
 
-### [TA Indicators](#ta-indicators)
+### [TA Indicators](#-ta-indicators)
 1. [MACD (Moving Average Convergence Divergence)](#1-macd-moving-average-convergence-divergence)
 2. [RSI (Relative Strength Index)](#2-rsi-relative-strength-index)
 3. [Stochastic Oscillator](#3-stochastic-oscillator)
