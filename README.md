@@ -34,7 +34,7 @@ It calculates technical indicators from collected data, tracking and recording t
 
 ## Table of Contents
 
-### [TA Indicators](#ta-indicators)
+### [TA Indicators](#custom-ta-indicators)
 1. [MACD (Moving Average Convergence Divergence)](#1-macd-moving-average-convergence-divergence)
 2. [RSI (Relative Strength Index)](#2-rsi-relative-strength-index)
 3. [Stochastic Oscillator](#3-stochastic-oscillator)
@@ -70,7 +70,7 @@ It calculates technical indicators from collected data, tracking and recording t
 15. [China PMI (Purchasing Managers' Index)](#15-china-pmi-purchasing-managers-index)
 
 ## [TA Indicators](#table-of-contents)
-
+<a id="custom-ta-indicators"></a>
 ### 1. **MACD (Moving Average Convergence Divergence)**
 - **Description**: The difference between short-term and long-term exponential moving averages (EMAs).  
 It incorporates the concept of golden and dead crosses.
