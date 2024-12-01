@@ -24,7 +24,22 @@
 
 BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various technical indicators, recording changes in trends. Using internal logic it helps investment decision. 
 
-
+## Table of Contents
+- [BDI (Baltic Dry Index)](#bdi-baltic-dry-index)
+- [PMI (Purchasing Managers' Index)](#pmi-purchasing-managers-index)
+- [Consumer Confidence Index (CCI)](#consumer-confidence-index-cci)
+- [FedWatch Expected Rate Spread](#fedwatch-expected-rate-spread)
+- [Dot Plot (Federal Reserve)](#dot-plot-federal-reserve)
+- [Buffett Indicator](#buffett-indicator)
+- [VIX (Volatility Index)](#vix-volatility-index)
+- [Fear & Greed Index](#fear--greed-index)
+- [M2 Growth Rate](#m2-growth-rate)
+- [Yield Curve Inversion](#yield-curve-inversion)
+- [Dollar Index (DXY)](#dollar-index-dxy)
+- [Labor Market Indicators](#labor-market-indicators)
+- [Inflation Metrics](#inflation-metrics)
+- [MSCI Emerging Markets Index](#msci-emerging-markets-index)
+- [China PMI](#china-pmi)
 ## Features
 
 * Screens highly volatile, oversold stocks through technical analysis.
