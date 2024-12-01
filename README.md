@@ -66,9 +66,8 @@ It calculates technical indicators from collected data, tracking and recording t
 11. [Dollar Index (DXY)](#11-dollar-index-dxy)
 12. [Labor Market Indicators](#12-labor-market-indicators)
 13. [Inflation Indicators](#13-inflation-indicators)
-14. [MSCI Emerging Markets Index](#14-msci-emerging-markets-index)
-15. [China PMI](#15-china-pmi)
-
+14. [MSCI Emerging Markets Index (MSCI EM)](#14-msci-emerging-markets-index-msci-em)
+15. [China PMI (Purchasing Managers' Index)](#15-china-pmi-purchasing-managers-index)
 
 ## TA Indicators
 
