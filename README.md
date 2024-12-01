@@ -24,9 +24,35 @@
 
 BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist with investment decisions by screening highly volatile, oversold stocks through technical analysis. It calculates and tracks various technical indicators, recording changes in trends. Using internal logic it helps investment decision. 
 
-# Market Indicators Overview
+## Features
+
+* Screens highly volatile, oversold stocks through technical analysis.
+* Tracks various technical indicators, recording changes in trends.
+* Uses internal logic to help make internal decisions.
+
+It calculates technical indicators from collected data, tracking and recording them until the targeted stock diverges from the set threshold. Internal logic determines likely points of trend reversal, providing information. Additionally, through fundamental analysis, it offers insights into the intrinsic value of the stock, supporting steady investment decisions by grounding them in solid fundamentals, as fundamental analysis serves as the cornerstone of sound investing.
 
 ## Table of Contents
+
+### [TA Indicators](#ta-indicators)
+1. [MACD (Moving Average Convergence Divergence)](#1-macd-moving-average-convergence-divergence)
+2. [RSI (Relative Strength Index)](#2-rsi-relative-strength-index)
+3. [Stochastic Oscillator](#3-stochastic-oscillator)
+4. [CCI (Commodity Channel Index)](#4-cci-commodity-channel-index)
+5. [Bollinger Bands](#5-bollinger-bands)
+6. [SMA10, SMA50](#6-sma10-sma-50)
+
+### [FA Metrics](#fa-metrics)
+1. [PBR (Price-to-Book Ratio)](#1-pbr-price-to-book-ratio)
+2. [PER (Price-to-Earnings Ratio)](#2-per-price-to-earnings-ratio)
+3. [ROE (Return on Equity)](#3-roe-return-on-equity)
+4. [Debt-to-Equity Ratio](#4-debt-to-equity-ratio)
+5. [EPS (Earnings Per Share)](#5-eps-earnings-per-share)
+6. [DCF (Discounted Cash Flow)](#6-dcf-discounted-cash-flow)
+7. [Revenue](#7-revenue)
+8. [PEG (Price/Earnings to Growth Ratio)](#8-peg-priceearnings-to-growth-ratio)
+
+### [Market Indicators Overview](#market-indicators-overview)
 1. [BDI (Baltic Dry Index)](#1-bdi-baltic-dry-index)
 2. [PMI (Purchasing Managers' Index)](#2-pmi-purchasing-managers-index)
 3. [Consumer Confidence Index (CCI)](#3-consumer-confidence-index-cci)
@@ -43,13 +69,6 @@ BULLSCOPE (IPA: /ˈbʊl.skoʊp/) is written in pure Python, designed to assist w
 14. [MSCI Emerging Markets Index](#14-msci-emerging-markets-index)
 15. [China PMI](#15-china-pmi)
 
-## Features
-
-* Screens highly volatile, oversold stocks through technical analysis.
-* Tracks various technical indicators, recording changes in trends.
-* Uses internal logic to help make internal decisions.
-
-It calculates technical indicators from collected data, tracking and recording them until the targeted stock diverges from the set threshold. Internal logic determines likely points of trend reversal, providing information. Additionally, through fundamental analysis, it offers insights into the intrinsic value of the stock, supporting steady investment decisions by grounding them in solid fundamentals, as fundamental analysis serves as the cornerstone of sound investing.
 
 ## TA Indicators
 
