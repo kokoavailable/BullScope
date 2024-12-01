@@ -69,7 +69,7 @@ It calculates technical indicators from collected data, tracking and recording t
 14. [MSCI Emerging Markets Index (MSCI EM)](#14-msci-emerging-markets-index-msci-em)
 15. [China PMI (Purchasing Managers' Index)](#15-china-pmi-purchasing-managers-index)
 
-## TA Indicators
+## [TA Indicators](#table-of-contents)
 
 ### 1. **MACD (Moving Average Convergence Divergence)**
 - **Description**: The difference between short-term and long-term exponential moving averages (EMAs).  
