@@ -118,6 +118,7 @@ Used to detect short-term trend reversals.
  <a id="custom-fa-metrics"></a>
 ## [FA Metrics](#table-of-contents)
 The metrics provide meaningful analytical results depending on time and context. They are used to evaluate intrinsic and fundamental value.
+https://chartschool.stockcharts.com/
 
 
 
