@@ -71,6 +71,7 @@ It calculates technical indicators from collected data, tracking and recording t
 
 <a id="custom-ta-indicators"></a>
 ## [TA Indicators](#table-of-contents)
+https://chartschool.stockcharts.com/
 ### 1. **MACD (Moving Average Convergence Divergence)**
 - **Description**: The difference between short-term and long-term exponential moving averages (EMAs).  
 It incorporates the concept of golden and dead crosses.
@@ -118,7 +119,6 @@ Used to detect short-term trend reversals.
  <a id="custom-fa-metrics"></a>
 ## [FA Metrics](#table-of-contents)
 The metrics provide meaningful analytical results depending on time and context. They are used to evaluate intrinsic and fundamental value.
-https://chartschool.stockcharts.com/
 
 
 
