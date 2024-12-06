@@ -36,7 +36,7 @@ It calculates technical indicators from collected data, tracking and recording t
 
 ### [TA Indicators](#custom-ta-indicators)
 1. [MACD (Moving Average Convergence Divergence)](#1-macd-moving-average-convergence-divergence)
-2. [RSI (Relative Strength Index)](#2-rsi-relative-strength-index)
+2. [RSI - Wilder (Relative Strength Index)](#2-rsi-relative-strength-index)
 3. [Stochastic Oscillator](#3-stochastic-oscillator)
 4. [CCI (Commodity Channel Index)](#4-cci-commodity-channel-index)
 5. [Bollinger Bands](#5-bollinger-bands)
